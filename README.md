@@ -3,6 +3,12 @@
 Refactored as a simple starting point to help introduce you to Prometheus
 based monitoring.
 
+# Spin up 
+
+docker-compose up
+	
+docker-compose down -v
+
 # Services
 
 You only need visit
@@ -15,6 +21,8 @@ Which integrates with these "targets" via the prometheus configuration.
 * Alert manager that does the alerting http://0.0.0.0:9093
 
 # Generating config files
+
+The below makefile was written for Windows, currently does not work on Mac
 
 	make
 
