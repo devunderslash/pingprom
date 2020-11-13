@@ -1,4 +1,4 @@
-SECRETS := $(shell readlink -f ./.env)
+SECRETS := $(shell greadlink -f ./.env)
 
 all: alertmanager.yml prometheus/prometheus.yml
 	docker-compose up
