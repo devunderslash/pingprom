@@ -6,8 +6,6 @@ services:
     container_name: prometheus
     command: 
       - --config.file=/pingprom/prometheus.yml
-      - --web.external-url=http://localhost:9090/prometheus/
-      - --web.route-prefix=/
 
     ports: ['9090:9090']
     volumes:

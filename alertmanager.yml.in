@@ -1,6 +1,7 @@
 global:
     smtp_smarthost: '$SMARTHOST'
     smtp_from: '$FROM'
+    smtp_to: '$TO'
     smtp_auth_username: '$SMTPAUTHUSERNAME'
     smtp_auth_password: '$SMTPAUTHPASSWORD'
 
